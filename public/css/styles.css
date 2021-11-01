@@ -6,8 +6,25 @@ body {
   letter-spacing: 1px;
 }
 
+/* Animation */
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-200%);
+  }
+  100% {
+    transform: translateX(-100);
+  }
+}
+
+
+
 .container {
   width: fit-content;
+}
+
+#topSearchBar {
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+  padding: 30px;
 }
 
 table {
