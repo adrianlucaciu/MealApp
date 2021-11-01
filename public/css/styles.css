@@ -1,0 +1,120 @@
+body {
+  font-family: "Lato", "Helvetica", Helvetica, sans-serif;
+  background: #e5c6be;
+  color: #007070;
+  padding: 20px;
+  letter-spacing: 1px;
+}
+
+.container {
+  width: fit-content;
+}
+
+table {
+  border-collapse:separate;
+  border:solid rgb(216, 158, 158) 1px;
+ 
+  width: auto;
+}
+
+th {
+  margin-right: 30px;
+  margin: auto;
+  text-align: center;
+}
+
+
+th {
+  border-top: none;
+  border-left:solid #e1eff0 1px;
+  border-top:solid black 1px;
+}
+
+td:first-child, th:first-child {
+   border-left: none;
+}
+
+tr {
+  background-color: #e1eff0;
+  border-radius: 25px;
+}
+
+tr > td {
+  padding: 30px;
+  text-align: center;
+}
+
+td img {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  margin: 0 auto;
+  overflow: auto;
+  max-width: 500px; /* Full width */
+  max-height: 400px; /* Full height */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 0; /* 15% from the top and centered */
+  border: 1px solid #888;
+  width: 100%; /* Could be more or less, depending on screen size */
+  height: auto;
+}
+
+.modalElements {
+  margin: auto;
+  margin-top: 20px;
+}
+
+#strMealThumb > img {
+  width: auto;
+  height: 150px;
+}
+
+#strInstructions {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.centeredInPage {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.moveToTop {
+  -webkit-animation : pulse 1s infinite;
+  -moz-animation    : pulse 1s infinite;
+  -o-animation      : pulse 1s infinite;
+  animation         : pulse 1s infinite;
+}
+
